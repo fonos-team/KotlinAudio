@@ -5,15 +5,17 @@ import com.doublesymmetry.kotlinaudio.models.MediaType
 
 
 val firstItem = DefaultAudioItem(
-    "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3", MediaType.DEFAULT,
-    title = "Dirty Computer",
-    artwork = "https://upload.wikimedia.org/wikipedia/en/0/0b/DirtyComputer.png",
-    artist = "Janelle Monáe"
+    "https://react-native-track-player.js.org/example/Longing.mp3", MediaType.DEFAULT,
+    title = "Longing",
+    artwork = "https://react-native-track-player.js.org/example/Longing.jpeg",
+    artist = "David Chavez",
+    duration = 143000
 )
 
 val secondItem = DefaultAudioItem(
-    "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_1MG.mp3", MediaType.DEFAULT,
-    title = "Melodrama",
-    artwork = "https://images-na.ssl-images-amazon.com/images/I/A18QUHExFgL._SL1500_.jpg",
-    artist = "Lorde"
+    "https://react-native-track-player.js.org/example/Soul%20Searching.mp3", MediaType.DEFAULT,
+    title = "Soul Searching (Demo)",
+    artwork = "https://react-native-track-player.js.org/example/Soul%20Searching.jpeg",
+    artist = "David Chavez",
+    duration = 77000
 )

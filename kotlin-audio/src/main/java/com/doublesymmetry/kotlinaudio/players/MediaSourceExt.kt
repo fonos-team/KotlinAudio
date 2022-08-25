@@ -9,10 +9,11 @@ fun MediaSource.getMediaMetadataCompat(): MediaMetadataCompat {
     val title = metadata.title ?: audioItem?.title
     val artist = metadata.artist ?: audioItem?.artist
     val albumTitle = metadata.albumTitle ?: audioItem?.albumTitle
-
+    val duration = audioItem?.duration ?: -1
     return MediaMetadataCompat.Builder()
         .putString(MediaMetadataCompat.METADATA_KEY_ARTIST, artist.toString())
         .putString(MediaMetadataCompat.METADATA_KEY_TITLE, title.toString())
         .putString(MediaMetadataCompat.METADATA_KEY_ALBUM, albumTitle.toString())
+        .putLong(MediaMetadataCompat.METADATA_KEY_DURATION, duration)
         .build()
 }
